@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+	<meta charset="utf-8">
+	<title>راویان هنر</title>
+	{{HTML::script('assets/js/bootstrap.min.js')}}
+	{{HTML::style('assets/css/bootstrap.min.css')}}
+	{{HTML::style('assets/css/normalize.css')}}
+	{{HTML::style('assets/css/style.css')}}
+</head>
+<body>
+	<div class="container-fluid" id="main_wrapper">
+			<div class="row header">
+
+				<div class="container">
+					<ul class="list-unstyled title">
+						<li class="logo"><a href="{{URL::route('home')}}"><h1>راویان هنر</h1></a></li>
+						<li class="user pull-left">خوش آمدید مدیر / <a href="#">خروج</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		<div class="container" >
+
+			<div class="row">
+				<div class="col-md-4 col-md-push-8">
+					<div id="sidebar">
+						<!-- <ul class="list-unstyled title">
+							<li class="logo"><a href="{{URL::route('home')}}"><h1>راویان هنر</h1></a></li>
+							<li class="user">خوش آمدید مدیر / <a href="#">خروج</a></li>
+						</ul> -->
+						<ul class="nav nav-pills nav-stacked menu">
+							<li><a href="#">اطلاعات پرسنل</a></li>
+							<li><a href="#">کامپیوتر</a></li>
+							<li><a href="#">شبکه</a></li>
+							<li><a href="#">وی پی ان</a></li>
+							<li><a href="#">آنتی ویروس</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 col-md-pull-4">
+					<div class="row">
+						<div class="col-md-6 search">
+							<input type="text" value="جستجو: عبارت جستجو را وارد کنید..." onfocus="if(this.value=='جستجو: عبارت جستجو را وارد کنید...') { this.value='' }" onblur="if(this.value=='') { this.value='جستجو: عبارت جستجو را وارد کنید...' }"  name="search">
+						</div>
+						<div class="col-md-6">
+							<input type="submit" value="اضافه" class="btn btn-success">
+							<input type="button" value="ویرایش" class="btn btn-primary">
+							<input type="button" value="حذف" class="btn btn-danger">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 well content">
+							main content goes here
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

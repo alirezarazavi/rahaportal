@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "koodak";
+  src: url("../fonts/BKoodakBold.eot?") format("eot"),
+  url("../fonts/BKoodakBold.woff") format("woff"),
+  url("../fonts/BKoodakBold.ttf") format("truetype");
+}
+
+body { direction: rtl; font-family: koodak; }
+
+h1 { margin: 0; padding: 0; }
+
+a:hover { text-decoration: none; }
+
+#main_wrapper {
+	background: #b8b7af;
+	
+}
+
+.search input {
+	background: #eee;
+	color: #828282;
+	padding: 7px 15px;
+	border: 0;
+	width: 100%;
+}
+
+/* Header */
+.header {
+	background: #3d3d3d;
+}
+
+
+
+/* Sidebar */
+#sidebar {
+	background: #3d3d3d;
+	color: #fff;
+}
+
+.title { margin: 0; padding: 10px; }
+.title h1 {
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #565656;
+}
+
+.title .user {
+	color: #ccc;
+	font-size: 12px;
+}
+
+.menu { margin: 0; padding: 0; margin-top: 10px; }
+.menu li {
+}
+.menu a {
+	color: #e4e4e4;
+	border-bottom: 1px solid #313131;
+}
+.menu li:first-child a {
+	border-top: 1px solid #313131;
+}
+.menu li:hover a {
+	border-radius: 0;
+	background: orange;
+	color: #fff;
+}
+
+
+
